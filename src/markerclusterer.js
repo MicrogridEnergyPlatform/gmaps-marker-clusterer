@@ -1242,7 +1242,7 @@ function defaultClusterOnAdd(clusterIcon) {
 
     var panes = clusterIcon.getPanes();
 
-    panes.overlayMouseTarget.appendChild(clusterIcon.div_);
+    panes.markerLayer.appendChild(clusterIcon.div_);
 
     var isDragging = false;
     var isMouseDown = false;
